@@ -14,7 +14,7 @@ Aplicação Java com container para avaliação do Checkpoint1
 #### Clone
 
 ```
-git clone https://github.com/RafaelSeidi/fiap-checkpoint1.git
+git clone https://github.com/MateusSoaRod/fiap-checkpoint1.git
 ```
 
 ## Execução
@@ -33,7 +33,7 @@ docker build -t fiap-checkpoint1 .
 spring.profiles.active=dev
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> rafaelseidi/fiap-checkpoint1
+docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> mateussoarod/fiap-checkpoint1
 ```
 
 ## Container Registry
@@ -59,7 +59,7 @@ docker build -t <username>/fiap-checkpoint1 .
 
 
 ```
-docker tag ping rafaelseidi/fiap-checkpoint1
+docker tag ping mateussoarod/fiap-checkpoint1
 ```
 
 
@@ -67,7 +67,7 @@ docker tag ping rafaelseidi/fiap-checkpoint1
 
 
 ```
-docker push rafaelseidi/fiap-checkpoint1 
+docker push mateussoarod/fiap-checkpoint1 
 ```
 
 
